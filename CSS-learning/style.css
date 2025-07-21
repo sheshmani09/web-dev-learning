@@ -7,3 +7,16 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+*****************    CSS units   ***********
+absolute unit px - pixel (Best for - icons/border)
+
+| Unit   | Relative To             | Example  | Best For                   |
+| ------ | ----------------------- | -------- | -------------------------- |
+| `%`    | Parent element          | `50%`    | Width, height, padding     |
+| `em`   | Font-size of parent     | `2em`    | Padding, margin, font-size |
+| `rem`  | Root element (`<html>`) | `1rem`   | Font-size, spacing         |
+| `vw`   | 1% of viewport width    | `50vw`   | Full-width layouts         |
+| `vh`   | 1% of viewport height   | `100vh`  | Full-screen sections       |
+| `vmin` | Smaller of `vw` or `vh` | `10vmin` | Scalable containers        |
+| `vmax` | Larger of `vw` or `vh`  | `10vmax` | Hero banners, headings     |
